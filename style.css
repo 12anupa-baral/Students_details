@@ -1,0 +1,81 @@
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2{
+    text-align: center;
+}
+
+input {
+    width:300px;
+    padding:10px;
+}
+
+select{
+    width:325px;
+    padding:10px;
+}
+
+.form-group{
+    padding:10px;
+}
+
+.Sinfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.form-group {
+    width:500px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-group label {
+    margin-right: 10px;
+}
+
+/* captch */
+#image{
+    margin-top: 10px;
+    width: 60px;;
+    padding: 20px;
+    font-weight: 400;
+    padding-bottom: 0px;
+    height: 40px;
+    user-select: none;
+    text-decoration:line-through;
+    font-style: italic;
+    font-size: x-large;
+    border: red 2px solid;
+    margin-left: 10px;
+     
+}
+#user-input{
+    width:auto;
+       margin-right: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+    height: 40px;
+       border: red 0px solid;
+}
+
+#btn{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    background-color: rgb(68, 126, 251);
+}
